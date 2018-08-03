@@ -75,6 +75,7 @@ $this->load->view($this->config->item('theme') . 'header');
 			    <p><?php echo $gig['CompanyCity'] . ", " . $gig['State']?></p>
 				<p><?php echo $gig['GigOutline'] ?></p>
 				<p><?php echo anchor('gig/'.$gig['GigID'] , 'Read More');?></p>
+                <hr/> 
 				<?php endforeach ?>
             </div>
         </div>
